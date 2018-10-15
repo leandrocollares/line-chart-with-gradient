@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lato-v14-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-regular.woff') format('woff'),
+       url('../fonts/lato-v14-latin-regular.ttf') format('truetype');       
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato-v14-latin-700.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-700.woff') format('woff'),
+       url('../fonts/lato-v14-latin-700.ttf') format('truetype');       
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #242424;
+}
+
+#intro {
+  position: relative;
+  height: auto;
+  padding: 5px;
+  margin: 0 0 0 20px;
+}
+
+#intro h1 {
+  color: #242424;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5em; 
+}
+
+#intro p {
+  color: #242424;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25em;
+  max-width: 850px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 3px;
+  width: 70px;
+  pointer-events: none;
+  background: #ffffff;
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.axis text {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tick line {
+  stroke: #242424;
+}
+
+.axis path {
+  stroke: #242424;
+}
+
+#source {
+  position: relative;
+  height: auto;
+  padding: 5px;
+  margin: 0 0 0 20px;
+}
+
+#source p {
+  color: #242424;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #db3b72;
+}
+
+a:visited {
+  color: #db3b72;
+}
+
+a:focus {
+  border-bottom: 1px dotted;  
+}
+
+a:hover {
+  border-bottom: 1px dotted;     
+}
+
+a:active {
+  color: ##4a0047;
+}
